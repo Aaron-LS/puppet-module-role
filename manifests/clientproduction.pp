@@ -5,5 +5,5 @@ class role::clientproduction {
     include profile::mysql::production
     include profile::apache::production
     include profile::tomcat::production
-
+    include profile::postfix::production
 }
